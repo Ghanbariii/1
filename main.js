@@ -3,5 +3,4 @@ let count = array.reduce((prevData, arrayItem) => {
     prevData[arrayItem] = (prevData[arrayItem] || 0) + 1;
     return prevData;
 }, {});
-
 console.log(count);
